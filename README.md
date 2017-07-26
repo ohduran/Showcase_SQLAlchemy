@@ -18,33 +18,29 @@ Model the reports, users, and loans that exist in the system and their relations
 ORM you prefer). As a starting point, your PM has given you the following attributes that belong to these items:
 
 ### User
-Name
+#### Name
 The first and last name of the user
 Max 255 characters
 Cannot be empty
 
 ### Loan
-Currency
+#### Currency
 Can only have a value of USD, GBP, or JPY
-Balance
+#### Balance
 The amount of money that the loan is for
 Must always have a value of zero or higher
 
 
 ### Report
-####Title
-A short description of the report
-max 255 characters
-Cannot be empty
-####Body
-The actual report text
-Max 5MB
-####Author
-A user who created the report
-Cannot be empty
-####Loans
+#### Title
+A short description of the report, max 255 characters, cannot be empty
+#### Body
+The actual report text, Max 5MB
+#### Author
+A user who created the report, cannot be empty
+#### Loans
 A list of loans that are associated with this particular report
-N.B. A loan may be referenced by multiple reports
+- N.B. A loan may be referenced by multiple reports
 
 ## Milestones
 1. Create suitable SQLA models to represent the objects listed above and their relationships to one another
