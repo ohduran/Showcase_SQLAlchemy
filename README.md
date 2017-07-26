@@ -1,6 +1,8 @@
 # ORM_Database
 This assessment aims at modelling the reports, users, and loans that exist in the system and their relationship to one another, using SQLAlchemy, in __less than 3 hours__.
 
+The amount spent on this assessment, and more, can be seen in [WakaTime](https://wakatime.com/@87c944a3-0f51-4430-a9b3-a0166c995bb5/projects/bqfmzrummg?start=2017-07-20&end=2017-07-26)
+
 ## Documentation
 See the documentation [here](docs/index.md).
 
